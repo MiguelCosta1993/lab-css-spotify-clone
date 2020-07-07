@@ -6,10 +6,6 @@ Green: #00B172
 White: #FFF
 
 */
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: 'Cabin', sans-serif;
@@ -129,4 +125,8 @@ body {
 .container2 p {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.footergreen {
+  background-color: #00b172;
 }
