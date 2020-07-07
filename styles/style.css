@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.logo {
+  width: 6em;
+  float: left;
+}
+
+.logo img {
+  width: 9em;
+  margin-top: 1em;
+  margin-left: 3.7em;
+}
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  height: 5em;
+  background-color: #ffffff;
+}
+
+.navbar {
+  float: right;
+}
+
+.navbar li {
+  font-family: 'Cabin';
+  list-style: none;
+  margin-top: 2em;
+  margin-right: 3.7em;
+  float: left;
+  color: #1a1a1a;
+}
+
+.festival {
+  height: 37em;
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 6em;
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  width: 55%;
+  margin: 0 auto;
+  color: #ffffff;
+  padding-top: 6em;
+  text-align: center;
+}
+.container1 h1 {
+  color: #ffffff;
+  font-size: 5em;
+}
+.container1 h2 {
+  padding-top: 3em;
+  font-size: 1.7em;
+}
+
+.services {
+  height: 31em;
+  width: 100%;
+  padding-top: 3em;
+  background-color: #ffffff;
+}
+.whatson {
+  width: 20em;
+  margin: 0 auto;
+  padding-bottom: 0.7em;
+  border-bottom: 4px solid #00b172;
+  text-align: center;
+}
+.whatson h3 {
+  font-size: 1.9em;
+  text-align: center;
+}
+.container2 {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.container21 {
+  width: 30%;
+  text-align: center;
+  float: left;
+  margin-left: 5%;
+}
+.container22 {
+  width: 30%;
+  text-align: center;
+  float: left;
+}
+.container23 {
+  width: 30%;
+  text-align: center;
+  float: left;
+  margin-right: 5%;
+}
+.container21 img {
+  height: 5em;
+}
+.container22 img {
+  height: 5em;
+}
+.container23 img {
+  height: 5em;
+}
+.container2 h4 {
+  font-size: 1.9rem;
+  color: #00b172;
+  text-align: center;
+  padding-bottom: 2em;
+  padding-top: 1.2em;
+}
+.container2 p {
+  text-align: center;
+  font-size: 1.5rem;
+}
